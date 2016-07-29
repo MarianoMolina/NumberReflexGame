@@ -1,0 +1,519 @@
+<resources>
+    <string name="app_name">Reaction Games</string>
+    <string name="app_id" translatable="false">520920641741</string>
+
+    <!-- SharedPreferences -->
+    <string name="save_file_name" translatable="false">Save File</string>
+    <string name="rate_text_title">Rate this app</string>
+    <string name="rate_text_explanation">Hey, you seem to have good reactions! Please rate our app!</string>
+    <string name="rate_text_now">Rate now</string>
+    <string name="rate_text_later">Later</string>
+    <string name="rate_text_never">No, thanks</string>
+
+    <!-- Unique game names-->
+    <string name="numbers_game" translatable="false">Numbers Game</string>
+    <string name="math_game" translatable="false">Math Game</string>
+    <string name="rules_game" translatable="false">Rules Game</string>
+    <string name="populations_game" translatable="false">Populations Game</string>
+    <string name="memory_game" translatable="false">Memory Game</string>
+    <string name="login_to_leaderboard">Log in to compete</string>
+    <string name="color_reaction_game" translatable="false">Color Reaction Game</string>
+    <!--Game strings -->
+    <string name="Times_up">Done!</string>
+    <string name="points">%d points</string>
+    <string name="wrong_again">Uh! Wrong again!</string>
+    <string name="wrong">Oh, that\'s actually incorrect</string>
+    <string name="correct">Correct!</string>
+    <string name="correct_tens_of_times">Way to go! %d correct on a row!</string>
+    <string name="correct_many_times">%d correct on a row!</string>
+    <string name="game_over_message">Game over!</string>
+    <string-array name="title_congratulations">
+        <item>Record!</item>
+        <item>New Record!</item>
+        <item>Amazing!</item>
+        <item>You rock!</item>
+        <item>Excellent!</item>
+    </string-array>
+    <string-array name="subtitle_congratulations">
+        <item>Wow! You are awesome!</item>
+        <item>Alright, alright, alright</item>
+        <item>Veni, vidi, vici</item>
+        <item>How do you do it!?</item>
+        <item>Leave some for the rest!</item>
+    </string-array>
+    <string-array name="title_non_congratulations">
+        <item>Almost!</item>
+        <item>Not close</item>
+        <item>Nope</item>
+        <item>Terrible&#8230;</item>
+        <item>Almost!</item>
+    </string-array>
+    <string-array name="subtitle_non_congratulations">
+        <item>Better luck next time!</item>
+        <item>Maybe try another game?</item>
+        <item>This is getting embarrassing</item>
+        <item>Sometimes I suck too</item>
+        <item>Maybe next time?</item>
+    </string-array>
+    <string name="new_record_score">Score record!</string>
+    <string name="non_record_score">Your score</string>
+    <string name="new_record_streak">Streak record!</string>
+    <string name="non_record_streak">Longest streak</string>
+    <string name="pre_math_game">"Tap on the correct answer to the math problem"</string>
+    <string name="pre_numbers_game">You\'ll find a color and a number. Only one is correct!</string>
+    <string name="pre_rules_game">There is a rule in the center and only one of the value meets it!</string>
+    <string name="pre_country_game">Choose the country the meets the central rule</string>
+    <string name="ready_to_start">Ready?</string>
+    <string name="starting_score">0 points</string>
+
+    <!-- Drawer -->
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- Opening menu strings-->
+    <string name="play_button">Play</string>
+    <string name="highscores_button">Highscores</string>
+    <string name="how_to_button">How To Play</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="numbers_game_button">Numbers</string>
+    <string name="numbers_game_explanation">Choose the number or color that matches the center value</string>
+    <string name="math_game_button">Math</string>
+    <string name="math_game_explanation">Choose the correct answer to the math ecuation</string>
+    <string name="rules_game_button">Rules</string>
+    <string name="rules_game_explanation">Choose the option the corresponds with the rule in the center</string>
+    <string name="populations_game_button">Populations</string>
+    <string name="populations_game_explanation">Pick the country that matches the rule in the center</string>
+    <string name="back_button">Back</string>
+    <string name="random_game_button">Random game</string>
+    <string name="random_game_explanation">Pick a game at random to play</string>
+    <string name="title_choose_game">Pick a game</string>
+    <string name="title_highscores">High scores</string>
+    <string name="title_how_to">How to play</string>
+    <string name="reaction_chances_left">%d left</string>
+    <string name="reaction_display_time">Only took you %s!</string>
+    <string name="reaction_too_soon">Oh! That\'s too soon!</string>
+    <string name="reaction_game" translatable="false">Reaction Game</string>
+    <string name="reaction_game_button">Reflex</string>
+    <string name="reaction_game_explanation">When the screen changes color, tap as fast as possible</string>
+    <string name="pre_reaction_game">You need to wait for the screen to change color and click as fast as you can</string>
+    <string name="color_reaction_game_button">Color Reflex</string>
+    <string name="color_reaction_game_explanation">Tap the screen only if the color matches the text</string>
+    <string name="pre_color_reaction_game">If the color matches the text, tap the screen as fast as possible!</string>
+    <string name="memory_game_button">Memory</string>
+    <string name="memory_game_explanation">Remember the number and find it fast</string>
+    <string name="pre_memory_game">The number will disappear, and two options will appear. Find the correct one</string>
+    <string name="reaction_short_name">Re</string>
+    <string name="memory_short_name">Me</string>
+    <string name="random_short_name">Ra</string>
+    <string name="populations_short_name">Po</string>
+    <string name="math_short_name">Ma</string>
+    <string name="rules_short_name">Ru</string>
+    <string name="numbers_short_name">Nu</string>
+    <string name="color_reaction_short_name">Co</string>
+
+    <!-- High scores screen strings-->
+    <string name="highscores_title">HIGHSCORES</string>
+    <string name="highscores_in_highscores">Highscore:</string>
+    <string name="streak_in_highscores">Longest streak:</string>
+    <string name="youString">You</string>
+    <string name="youSubText">Gotta catch\'em all</string>
+    <string name="leaderSubText">Basically Heisenberg</string>
+    <string name="secondSubText">Always the bridesmaid&#8230;</string>
+    <string name="thirdSubText">Yay! Podium!</string>
+
+    <!-- Ads strings -->
+    <string name="Native_ad_unit" translatable="false">ca-app-pub-5446158020626099/4033857902</string>
+    <string name="Native_ad_unit_large" translatable="false">ca-app-pub-5446158020626099/2248753509</string>
+    <string name="Native_ad_unit_card" translatable="false">ca-app-pub-5446158020626099/5700453908</string>
+    <string name="Interstitial_ad_unit" translatable="false">ca-app-pub-5446158020626099/7766053508</string>
+    <string name="MoPub_Native_ad_id" translatable="false">019a96d46d344242a7ed0e96449f5238</string>
+
+    <!--Invitation strings-->
+    <string name="invitation_title">Check out my high score at Numbers Reflex Game!</string>
+    <string name="invitation_message">"Come and try to beat my score! I got %1$d points on the %2$s"</string>
+    <string name="invitation_title_alternate">Check out my new favorite game: Reflex Games!</string>
+    <string name="invitation_message_alternate">Come and try to beat me!</string>
+    <string name="invitation_cta">Come play!</string>
+
+    <!-- Facebook-->
+    <string name="facebook_app_id" translatable="false">658893440930943</string>
+
+    <!-- Sign in strings-->
+    <string name="label_google_sign_in" translatable="false">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in" translatable="false">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login" translatable="false">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login" translatable="false">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword" translatable="false">Email/Password Authentication</string>
+    <string name="desc_emailpassword" translatable="false">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="desc_firebase_lockup" translatable="false">Firebase logo and name</string>
+    <string name="hint_user_id" translatable="false">User ID</string>
+    <string name="get_custom_token" translatable="false">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token" translatable="false">Custom Token</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null" translatable="false">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="firebase_status_fmt" translatable="false">Firebase User: %s</string>
+    <string name="firebase_user_management" translatable="false">Firebase User Management</string>
+
+    <string name="google_status_fmt" translatable="false">Google User: %s</string>
+    <string name="google_title_text" translatable="false">Google Sign In</string>
+
+    <string name="facebook_status_fmt" translatable="false">Facebook User: %s</string>
+    <string name="facebook_title_text" translatable="false">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt" translatable="false">Email User: %s</string>
+    <string name="emailpassword_title_text" translatable="false">Email and Password</string>
+
+    <string name="share">Share</string>
+    <string name="rate">Rate this app!</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_again">New Game</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="trueString">True</string>
+    <string name="falseString">False</string>
+    <string name="tapHighestPopulation">Most Population</string>
+    <string name="tapSmallestPopulation">Least Population</string>
+    <string-array name="numbersInText">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+    </string-array>
+    <string-array name="numbersInInt" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="colorsInText">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="colorsInHex" translatable="false">
+        <item>F44336</item>
+        <item>E91E63</item>
+        <item>9C27B0</item>
+        <item>3F51B5</item>
+        <item>4CAF50</item>
+        <item>FFEB3B</item>
+        <item>FF9800</item>
+        <item>9E9E9E</item>
+        <item>795548</item>
+        <item>000000</item>
+    </string-array>
+    <string-array name="countryName">
+        <item>China</item>
+        <item>India</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Pakistan</item>
+        <item>Nigeria</item>
+        <item>Bangladesh</item>
+        <item>Russia</item>
+        <item>Japan</item>
+        <item>Mexico</item>
+        <item>Philippines</item>
+        <item>Vietnam</item>
+        <item>Ethiopia</item>
+        <item>Egypt</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Germany</item>
+        <item>Iran</item>
+        <item>Turkey</item>
+        <item>France</item>
+        <item>Thailand</item>
+        <item>United Kingdom</item>
+        <item>Italy</item>
+        <item>South Africa</item>
+        <item>Tanzania</item>
+        <item>Myanmar</item>
+        <item>South Korea</item>
+        <item>Colombia</item>
+        <item>Kenya</item>
+        <item>Spain</item>
+        <item>Argentina</item>
+        <item>Ukraine</item>
+        <item>Algeria</item>
+        <item>Sudan</item>
+        <item>Poland</item>
+        <item>Iraq</item>
+        <item>Uganda</item>
+        <item>Canada</item>
+        <item>Morocco</item>
+        <item>Saudi Arabia</item>
+        <item>Uzbekistan</item>
+        <item>Peru</item>
+        <item>Malaysia</item>
+        <item>Venezuela</item>
+        <item>Nepal</item>
+        <item>Ghana</item>
+        <item>Afghanistan</item>
+        <item>Yemen</item>
+        <item>Mozambique</item>
+        <item>Angola</item>
+        <item>North Korea</item>
+        <item>Australia</item>
+        <item>Taiwan</item>
+        <item>Cameroon</item>
+        <item>Ivory Coast</item>
+        <item>Madagascar</item>
+        <item>Sri Lanka</item>
+        <item>Niger</item>
+        <item>Romania</item>
+        <item>Burkina Faso</item>
+        <item>Syria</item>
+        <item>Chile</item>
+        <item>Mali</item>
+        <item>Kazakhstan</item>
+        <item>Netherlands</item>
+        <item>Malawi</item>
+        <item>Ecuador</item>
+        <item>Guatemala</item>
+        <item>Zambia</item>
+        <item>Cambodia</item>
+        <item>Senegal</item>
+        <item>Chad</item>
+        <item>Zimbabwe</item>
+        <item>Guinea</item>
+        <item>South Sudan</item>
+        <item>Rwanda</item>
+        <item>Belgium</item>
+        <item>Cuba</item>
+        <item>Tunisia</item>
+        <item>Somalia</item>
+        <item>Haiti</item>
+        <item>Bolivia</item>
+        <item>Greece</item>
+        <item>Benin</item>
+        <item>Czech Republic</item>
+        <item>Portugal</item>
+        <item>Burundi</item>
+        <item>Dominican Republic</item>
+        <item>Sweden</item>
+        <item>United Arab Emirates</item>
+        <item>Hungary</item>
+        <item>Azerbaijan</item>
+        <item>Jordan</item>
+        <item>Belarus</item>
+        <item>Austria</item>
+        <item>Tajikistan</item>
+        <item>Honduras</item>
+        <item>Israel</item>
+        <item>Switzerland</item>
+        <item>Papua New Guinea</item>
+    </string-array>
+    <integer-array name="countryPopulation" translatable="false">
+        <item>1377500496</item>
+        <item>1291958171</item>
+        <item>323983000</item>
+        <item>258705000</item>
+        <item>206158423</item>
+        <item>194171132</item>
+        <item>186988000</item>
+        <item>161035700</item>
+        <item>146599183</item>
+        <item>126960000</item>
+        <item>122273473</item>
+        <item>103302800</item>
+        <item>92700000</item>
+        <item>92206005</item>
+        <item>91223312</item>
+        <item>85026000</item>
+        <item>81770900</item>
+        <item>79382200</item>
+        <item>78741053</item>
+        <item>66710000</item>
+        <item>65330642</item>
+        <item>65110000</item>
+        <item>60665551</item>
+        <item>55653654</item>
+        <item>55155000</item>
+        <item>51419420</item>
+        <item>50801405</item>
+        <item>48767248</item>
+        <item>47251000</item>
+        <item>46438422</item>
+        <item>43590400</item>
+        <item>42692393</item>
+        <item>40400000</item>
+        <item>39598700</item>
+        <item>38437239</item>
+        <item>37883543</item>
+        <item>36860700</item>
+        <item>36155487</item>
+        <item>33337529</item>
+        <item>32248200</item>
+        <item>31576400</item>
+        <item>31488700</item>
+        <item>31410836</item>
+        <item>31028700</item>
+        <item>28431500</item>
+        <item>27670174</item>
+        <item>27657145</item>
+        <item>27478000</item>
+        <item>26423700</item>
+        <item>25868000</item>
+        <item>25281000</item>
+        <item>24121435</item>
+        <item>23503349</item>
+        <item>22709892</item>
+        <item>22671331</item>
+        <item>22434363</item>
+        <item>20966000</item>
+        <item>20715000</item>
+        <item>19861000</item>
+        <item>19034397</item>
+        <item>18564000</item>
+        <item>18191900</item>
+        <item>18135000</item>
+        <item>17753200</item>
+        <item>17020700</item>
+        <item>16832910</item>
+        <item>16550829</item>
+        <item>16176133</item>
+        <item>15933883</item>
+        <item>15626444</item>
+        <item>14799859</item>
+        <item>14497000</item>
+        <item>14240168</item>
+        <item>12947000</item>
+        <item>12131000</item>
+        <item>11553188</item>
+        <item>11319511</item>
+        <item>11239004</item>
+        <item>11154400</item>
+        <item>11079000</item>
+        <item>11078033</item>
+        <item>10985059</item>
+        <item>10858018</item>
+        <item>10653654</item>
+        <item>10558524</item>
+        <item>10374822</item>
+        <item>10114505</item>
+        <item>10075045</item>
+        <item>9894888</item>
+        <item>9856000</item>
+        <item>9823000</item>
+        <item>9730500</item>
+        <item>9531712</item>
+        <item>9498700</item>
+        <item>8725931</item>
+        <item>8593600</item>
+        <item>8576532</item>
+        <item>8527400</item>
+        <item>8341600</item>
+        <item>8083700</item>
+    </integer-array>
+    <integer-array name="modifiersMath">
+        <item>10</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="operatorString" translatable="false">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+    </string-array>
+    <string-array name="ruleString">
+        <item>Prime</item>
+        <item>Non-Prime</item>
+        <item>Even</item>
+        <item>Odd</item>
+        <item>Color</item>
+        <item>Number</item>
+    </string-array>
+    <string-array name="primeNumberString" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>11</item>
+        <item>13</item>
+        <item>17</item>
+        <item>19</item>
+        <item>23</item>
+        <item>29</item>
+        <item>31</item>
+        <item>37</item>
+        <item>41</item>
+        <item>43</item>
+        <item>47</item>
+        <item>53</item>
+        <item>59</item>
+        <item>61</item>
+        <item>67</item>
+        <item>71</item>
+        <item>73</item>
+        <item>79</item>
+        <item>83</item>
+        <item>89</item>
+        <item>97</item>
+    </string-array>
+    <string-array name="nonPrimeNumberString" translatable="false">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>15</item>
+        <item>18</item>
+        <item>21</item>
+        <item>27</item>
+        <item>33</item>
+        <item>35</item>
+        <item>39</item>
+        <item>42</item>
+        <item>45</item>
+        <item>49</item>
+        <item>51</item>
+        <item>55</item>
+        <item>57</item>
+        <item>63</item>
+        <item>65</item>
+        <item>69</item>
+        <item>72</item>
+        <item>75</item>
+        <item>77</item>
+        <item>81</item>
+        <item>85</item>
+        <item>93</item>
+    </string-array>
+</resources>

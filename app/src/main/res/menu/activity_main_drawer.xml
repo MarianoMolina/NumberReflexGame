@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_play"
+            android:icon="@drawable/ic_arrow_black"
+            android:title="@string/play_button" />
+        <item
+            android:id="@+id/nav_highscores"
+            android:icon="@drawable/ic_highscores"
+            android:title="@string/highscores_button" />
+        <item
+            android:id="@+id/nav_how_to_play"
+            android:icon="@drawable/ic_gamepad"
+            android:title="@string/how_to_button" />
+    </group>
+
+    <item android:title="@string/login_to_leaderboard">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star"
+                android:title="@string/rate"/>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_email"
+                android:title="@string/sign_in" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/sign_out"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+</menu>

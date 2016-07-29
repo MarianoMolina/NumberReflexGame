@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mariano.numberreflexgame.GamePlay">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rootView">
+        <com.google.android.gms.ads.NativeExpressAdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nativeAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adUnitId="@string/Native_ad_unit"
+            ads:adSize="FULL_WIDTHx100"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+        </com.google.android.gms.ads.NativeExpressAdView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/nativeAdView"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/gameStartCountDownWrap">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:textSize="150sp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/gameStartCountDown"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/gameStartCountDownText"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/nativeAdView"
+            android:id="@+id/totalGameLayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/countDown1"
+                android:text=""
+                android:textSize="40sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:id="@+id/mainGameLayout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:id="@+id/centerRule"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_above="@+id/scoreDisplayed"
+                android:id="@+id/streakText"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/starting_score"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/scoreDisplayed" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/alternateColor"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <include layout="@layout/layout_game_over_message"/>
+
+</RelativeLayout>

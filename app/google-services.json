@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "520920641741",
+    "firebase_url": "https://numbers-reflex-game-7180172.firebaseio.com",
+    "project_id": "numbers-reflex-game-7180172",
+    "storage_bucket": "numbers-reflex-game-7180172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520920641741:android:a545982dcdc62748",
+        "android_client_info": {
+          "package_name": "com.mariano.numberreflexgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520920641741-ainl2b335ldo94h3lrgmt68u9hhrc4it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mariano.numberreflexgame",
+            "certificate_hash": "DB318096F639DA7B6B1B33216910CF3B43B329E4"
+          }
+        },
+        {
+          "client_id": "520920641741-1hsvqhvl4m5q032s1cn7kk9g6ndp4t46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mariano.numberreflexgame",
+            "certificate_hash": "21DA02F8EFAAC8A4FC1005BB45D0BF476899214C"
+          }
+        },
+        {
+          "client_id": "520920641741-sg3c72c7kk640ov62i84m1nf4ujrs9j2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "520920641741-9c9vm1fdl5u7dcah25i3krabel12l7ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYKBxeCdhzRkujxNx15sp96SfW96KG1MQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520920641741-sg3c72c7kk640ov62i84m1nf4ujrs9j2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

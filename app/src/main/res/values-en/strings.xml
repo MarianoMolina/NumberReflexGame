@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reaction Games</string>
+    <string-array name="ruleString">
+        <item>Prime</item>
+        <item>Non-Prime</item>
+        <item>Even</item>
+        <item>Odd</item>
+        <item>Color</item>
+        <item>Number</item>
+    </string-array>
+    <string name="login_to_leaderboard">Log in to compete</string>
+    <!--Game strings -->
+    <string name="Times_up">Done!</string>
+    <string name="points">%d points</string>
+    <string name="wrong_again">Uh! Wrong again!</string>
+    <string name="wrong">Oh, that\'s actually incorrect</string>
+    <string name="correct">Correct!</string>
+    <string name="correct_tens_of_times">Way to go! %d correct on a row!</string>
+    <string name="correct_many_times">%d correct on a row!</string>
+    <string name="game_over_message">Game over!</string>
+    <string-array name="title_congratulations">
+        <item>Record!</item>
+        <item>New Record!</item>
+        <item>Amazing!</item>
+        <item>You rock!</item>
+        <item>Excellent!</item>
+    </string-array>
+    <string-array name="subtitle_congratulations">
+        <item>Wow! You are awesome!</item>
+        <item>Alright, alright, alright</item>
+        <item>Veni, vidi, vici</item>
+        <item>How do you do it!?</item>
+        <item>Leave some for the rest!</item>
+    </string-array>
+    <string-array name="title_non_congratulations">
+        <item>Almost!</item>
+        <item>Not close</item>
+        <item>Nope</item>
+        <item>Terrible&#8230;</item>
+        <item>Almost!</item>
+    </string-array>
+    <string-array name="subtitle_non_congratulations">
+        <item>Better luck next time!</item>
+        <item>Maybe try another game?</item>
+        <item>This is getting embarrassing</item>
+        <item>Sometimes I suck too</item>
+        <item>Maybe next time?</item>
+    </string-array>
+    <string name="rate_text_title">Rate this app</string>
+    <string name="rate_text_explanation">Hey, you seem to have good reactions! Please rate our app!</string>
+    <string name="rate_text_now">Rate now</string>
+    <string name="rate_text_later">Later</string>
+    <string name="rate_text_never">No, thanks</string>
+    <string name="new_record_score">Score record!</string>
+    <string name="non_record_score">Your score</string>
+    <string name="new_record_streak">Streak record!</string>
+    <string name="non_record_streak">Longest streak</string>
+    <string name="pre_math_game">"Tap on the correct answer to the math problem"</string>
+    <string name="pre_numbers_game">You\'ll find a color and a number. Only one is correct!</string>
+    <string name="pre_rules_game">There is a rule in the center and only one of the value meets it!</string>
+    <string name="pre_country_game">Choose the country the meets the central rule</string>
+    <string name="ready_to_start">Ready?</string>
+    <string name="starting_score">0 points</string>
+    <!-- Opening menu strings-->
+    <string name="play_button">Play</string>
+    <string name="highscores_button">Highscores</string>
+    <string name="how_to_button">How To Play</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="numbers_game_button">Numbers</string>
+    <string name="numbers_game_explanation">Choose the number or color that matches the center value</string>
+    <string name="math_game_button">Math</string>
+    <string name="math_game_explanation">Choose the correct answer to the math ecuation</string>
+    <string name="rules_game_button">Rules</string>
+    <string name="rules_game_explanation">Choose the option the corresponds with the rule in the center</string>
+    <string name="populations_game_button">Populations</string>
+    <string name="populations_game_explanation">Pick the country that matches the rule in the center</string>
+    <string name="back_button">Back</string>
+    <string name="random_game_button">Random game</string>
+    <string name="random_game_explanation">Pick a game at random to play</string>
+    <string name="title_choose_game">Pick a game</string>
+    <string name="title_highscores">High scores</string>
+    <string name="title_how_to">How to play</string>
+    <string name="reaction_chances_left">%d left</string>
+    <string name="reaction_game_button">Reflex</string>
+    <string name="reaction_display_time">Only took you %s!</string>
+    <string name="reaction_too_soon">Oh! That\'s too soon!</string>
+    <string name="reaction_game_explanation">When the screen changes color, tap as fast as possible</string>
+    <string name="pre_reaction_game">You need to wait for the screen to change color and click as fast as you can</string>
+    <string name="reaction_short_name">Re</string>
+    <string name="random_short_name">Ra</string>
+    <string name="populations_short_name">Po</string>
+    <string name="math_short_name">Ma</string>
+    <string name="rules_short_name">Ru</string>
+    <string name="numbers_short_name">Nu</string>
+
+    <!-- High scores screen strings-->
+    <string name="highscores_title">HIGHSCORES</string>
+    <string name="highscores_in_highscores">Highscore:</string>
+    <string name="streak_in_highscores">Longest streak:</string>
+    <string name="view_streaks">View streaks</string>
+    <string name="view_scores">View scores</string>
+    <string name="nameRecords">Name</string>
+    <string name="posRecords">Pos</string>
+    <string name="scoreRecords">Score</string>
+    <string name="youString">You</string>
+
+    <!--Invitation strings-->
+    <string name="invitation_title">Check out my high score at Numbers Reflex Game!</string>
+    <string name="invitation_message">"Come and try to beat my score! I got %1$d points on the %2$s"</string>
+    <string name="invitation_title_alternate">Check out my new favorite game: Reflex Games!</string>
+    <string name="invitation_message_alternate">Come and try to beat me!</string>
+    <string name="invitation_cta">Come play!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="share">Share</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_again">New Game</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="trueString">True</string>
+    <string name="falseString">False</string>
+    <string name="tapHighestPopulation">Most Population</string>
+    <string name="tapSmallestPopulation">Least Population</string>
+    <string-array name="numbersInText">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+    </string-array>
+    <string-array name="colorsInText">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="countryName">
+        <item>China</item>
+        <item>India</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Pakistan</item>
+        <item>Nigeria</item>
+        <item>Bangladesh</item>
+        <item>Russia</item>
+        <item>Japan</item>
+        <item>Mexico</item>
+        <item>Philippines</item>
+        <item>Vietnam</item>
+        <item>Ethiopia</item>
+        <item>Egypt</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Germany</item>
+        <item>Iran</item>
+        <item>Turkey</item>
+        <item>France</item>
+        <item>Thailand</item>
+        <item>United Kingdom</item>
+        <item>Italy</item>
+        <item>South Africa</item>
+        <item>Tanzania</item>
+        <item>Myanmar</item>
+        <item>South Korea</item>
+        <item>Colombia</item>
+        <item>Kenya</item>
+        <item>Spain</item>
+        <item>Argentina</item>
+        <item>Ukraine</item>
+        <item>Algeria</item>
+        <item>Sudan</item>
+        <item>Poland</item>
+        <item>Iraq</item>
+        <item>Uganda</item>
+        <item>Canada</item>
+        <item>Morocco</item>
+        <item>Saudi Arabia</item>
+        <item>Uzbekistan</item>
+        <item>Peru</item>
+        <item>Malaysia</item>
+        <item>Venezuela</item>
+        <item>Nepal</item>
+        <item>Ghana</item>
+        <item>Afghanistan</item>
+        <item>Yemen</item>
+        <item>Mozambique</item>
+        <item>Angola</item>
+        <item>North Korea</item>
+        <item>Australia</item>
+        <item>Taiwan</item>
+        <item>Cameroon</item>
+        <item>Ivory Coast</item>
+        <item>Madagascar</item>
+        <item>Sri Lanka</item>
+        <item>Niger</item>
+        <item>Romania</item>
+        <item>Burkina Faso</item>
+        <item>Syria</item>
+        <item>Chile</item>
+        <item>Mali</item>
+        <item>Kazakhstan</item>
+        <item>Netherlands</item>
+        <item>Malawi</item>
+        <item>Ecuador</item>
+        <item>Guatemala</item>
+        <item>Zambia</item>
+        <item>Cambodia</item>
+        <item>Senegal</item>
+        <item>Chad</item>
+        <item>Zimbabwe</item>
+        <item>Guinea</item>
+        <item>South Sudan</item>
+        <item>Rwanda</item>
+        <item>Belgium</item>
+        <item>Cuba</item>
+        <item>Tunisia</item>
+        <item>Somalia</item>
+        <item>Haiti</item>
+        <item>Bolivia</item>
+        <item>Greece</item>
+        <item>Benin</item>
+        <item>Czech Republic</item>
+        <item>Portugal</item>
+        <item>Burundi</item>
+        <item>Dominican Republic</item>
+        <item>Sweden</item>
+        <item>United Arab Emirates</item>
+        <item>Hungary</item>
+        <item>Azerbaijan</item>
+        <item>Jordan</item>
+        <item>Belarus</item>
+        <item>Austria</item>
+        <item>Tajikistan</item>
+        <item>Honduras</item>
+        <item>Israel</item>
+        <item>Switzerland</item>
+        <item>Papua New Guinea</item>
+    </string-array>
+    <string name="memory_game_button">Memory</string>
+    <string name="memory_game_explanation">Remember the number and find it fast</string>
+    <string name="memory_short_name">Me</string>
+    <string name="pre_memory_game">The number will disappear, and two options will appear. Find the correct one</string>
+    <string name="color_reaction_game_button">Color Reflex</string>
+    <string name="color_reaction_game_explanation">Tap the screen only if the color matches the text</string>
+    <string name="pre_color_reaction_game">If the color matches the text, tap the screen as fast as possible!</string>
+    <string name="color_reaction_short_name">Co</string>
+    <string name="leaderSubText">Basically Heisenberg</string>
+    <string name="secondSubText">Always the bridesmaid…</string>
+    <string name="thirdSubText">Yay! Podium!</string>
+    <string name="youSubText">Gotta catch\'em all</string>
+</resources>

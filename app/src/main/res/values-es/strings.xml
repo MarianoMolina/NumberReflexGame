@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Juego de Reacción</string>
+    <string name="Times_up">Listo!</string>
+    <string name="back_button">Volver</string>
+    <string name="correct">Correcto!</string>
+    <string name="random_game_button">Elegir aleatoriamente</string>
+    <string name="reaction_chances_left">%d restantes</string>
+    <string name="correct_many_times">%d correctos seguidos!</string>
+    <string name="correct_tens_of_times">Excelente! %d correctos seguidos!</string>
+    <string name="reaction_display_time">Solo te tomó %s!</string>
+    <string name="reaction_too_soon">Opa! Demasiado pronto!</string>
+    <string name="pre_reaction_game">Espera a que la pantalla cambie de color y luego haz click lo más rápido que puedas</string>
+    <string name="create_account">Crear Cuenta</string>
+    <string name="highscores_button">Puntajes más altos</string>
+    <string name="reaction_game_button">Reflejos</string>
+    <string name="highscores_in_highscores">Puntaje más alto:</string>
+    <string name="highscores_title">PUNTAJES RÉCORD</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="how_to_button">Cómo jugar</string>
+    <string name="invitation_cta">Ven a jugar!</string>
+    <string name="invitation_message">Ven y trata de ganarme! Conseguí un puntaje de %1$d en el juego de %2$s</string>
+    <string name="invitation_title">Mira el puntaje que obtuve en Juego de Reflejos!</string>
+    <string name="invitation_title_alternate">Mira mi nuevo juego favorito: Juego de Reflejos!</string>
+    <string name="invitation_message_alternate">Ven y trata de vencerme!</string>
+    <string name="new_record_score">Nuevo récord!</string>
+    <string name="new_record_streak">Nueva racha récord!</string>
+    <string name="title_choose_game">Elegí un juego</string>
+    <string name="title_highscores">Puntajes altos</string>
+    <string name="rate_text_title">Puntuar esta app</string>
+    <string name="rate_text_explanation">Hola! Parece que reaccionás rápido! Por favor puntuá nuestra app!</string>
+    <string name="rate_text_now">Puntuar ahora</string>
+    <string name="rate_text_later">Luego</string>
+    <string name="rate_text_never">No, gracias</string>
+    <string name="title_how_to">Cómo jugar</string>
+    <string name="non_record_score">Tu puntaje</string>
+    <string name="non_record_streak">Tu racha</string>
+    <string name="play_button">Jugar</string>
+    <string name="view_streaks">Ver rachas</string>
+    <string name="view_scores">Ver puntajes</string>
+    <string name="points">%d puntos</string>
+    <string name="nameRecords">Nombre</string>
+    <string name="posRecords">#</string>
+    <string name="scoreRecords">Puntaje</string>
+    <string name="youString">Tú</string>
+    <string name="pre_country_game">Elige el país cuya población cumple con la regla central</string>
+    <string name="pre_math_game">Elegí la respuesta correcta a la ecuación matemática</string>
+    <string name="pre_numbers_game">Vas a encontrar un color y un número. Elegí el que corresponda con el centro</string>
+    <string name="pre_rules_game">Hay una regla en el centro y sólo uno de los valores la cumple!</string>
+    <string name="ready_to_start">Listo?</string>
+    <string name="rules_game_button">Reglas</string>
+    <string name="math_game_button">Matemática</string>
+    <string name="numbers_game_button">Números</string>
+    <string name="populations_game_button">Población</string>
+    <string name="reaction_short_name">Re</string>
+    <string name="random_short_name">Al</string>
+    <string name="populations_short_name">Po</string>
+    <string name="math_short_name">Ma</string>
+    <string name="rules_short_name">Re</string>
+    <string name="numbers_short_name">Nu</string>
+    <string name="starting_score">0 puntos</string>
+    <string name="streak_in_highscores">Racha más larga:</string>
+    <string name="tapHighestPopulation">Mayor población</string>
+    <string name="tapSmallestPopulation">Menor población</string>
+    <string name="game_over_message">Terminó!</string>
+    <string-array name="title_congratulations">
+        <item>Récord!</item>
+        <item>Increíble!</item>
+        <item>Flash!</item>
+        <item>Gigante!</item>
+        <item>Excelente!</item>
+    </string-array>
+    <string-array name="subtitle_congratulations">
+        <item>Sos lo más!</item>
+        <item>Tus fans te ovacionan!</item>
+        <item>Debés ser un genio!</item>
+        <item>¿Cómo eres tan bueno?!</item>
+        <item>Deja algo para los demás!</item>
+    </string-array>
+    <string-array name="title_non_congratulations">
+        <item>Uh, casi!</item>
+        <item>Que mal!</item>
+        <item>Nooooooo</item>
+        <item>Ni cerca</item>
+        <item>No, no, no</item>
+    </string-array>
+    <string-array name="subtitle_non_congratulations">
+        <item>Mejor suerte la próxima!</item>
+        <item>Estás distraido?</item>
+        <item>Bueno, intentar es importante</item>
+        <item>Pokemon no-GO en tu caso</item>
+        <item>Así no vamos a ninguna parte</item>
+    </string-array>
+    <string name="login_to_leaderboard">Ingresá para competir</string>
+    <string name="wrong">Oops, eso es incorrecto!</string>
+    <string name="wrong_again">No! Mal de vuelta!</string>
+    <string name="loading">Cargando&#8230;</string>
+    <string name="sign_in_button">Ingresar</string>
+    <string name="trueString">Verdadero</string>
+    <string name="falseString">Falso</string>
+    <string-array name="colorsInText">
+        <item>Rojo</item>
+        <item>Rosado</item>
+        <item>Violeta</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+        <item>Gris</item>
+        <item>Marrón</item>
+        <item>Negro</item>
+    </string-array>
+    <string-array name="numbersInText">
+        <item>Uno</item>
+        <item>Dos</item>
+        <item>Tres</item>
+        <item>Cuatro</item>
+        <item>Cinco</item>
+        <item>Seis</item>
+        <item>Siete</item>
+        <item>Ocho</item>
+        <item>Nueve</item>
+        <item>Diez</item>
+    </string-array>
+    <string-array name="countryName">
+        <item>China</item>
+        <item>India</item>
+        <item>Estados Unidos</item>
+        <item>Indonesia</item>
+        <item>Brasil</item>
+        <item>Pakistán</item>
+        <item>Nigeria</item>
+        <item>Bangladés</item>
+        <item>Rusia</item>
+        <item>Japón</item>
+        <item>México</item>
+        <item>Filipinas</item>
+        <item>Vietnam</item>
+        <item>Etiopía</item>
+        <item>Egipto</item>
+        <item>Alemania</item>
+        <item>Irán</item>
+        <item>Turquía</item>
+        <item>Congo</item>
+        <item>Tailandia</item>
+        <item>Reino Unido</item>
+        <item>Francia</item>
+        <item>Italia</item>
+        <item>Sudáfrica</item>
+        <item>Myanmar</item>
+        <item>Corea del Sur</item>
+        <item>Tanzania</item>
+        <item>Colombia</item>
+        <item>España</item>
+        <item>Kenia</item>
+        <item>Argentina</item>
+        <item>Ucrania</item>
+        <item>Argelia</item>
+        <item>Sudán</item>
+        <item>Polonia</item>
+        <item>Irak</item>
+        <item>Uganda</item>
+        <item>Canadá</item>
+        <item>Marruecos</item>
+        <item>Uzbekistán</item>
+        <item>Arabia Saudita</item>
+        <item>Perú</item>
+        <item>Malasia</item>
+        <item>Venezuela</item>
+        <item>Nepal</item>
+        <item>Ghana</item>
+        <item>Angola</item>
+        <item>Yemen</item>
+        <item>Afganistán</item>
+        <item>Mozambique</item>
+        <item>Corea del Norte</item>
+        <item>Australia</item>
+        <item>Costa de Marfil</item>
+        <item>Siria</item>
+        <item>Madagascar</item>
+        <item>República de China</item>
+        <item>Camerún</item>
+        <item>Sri Lanka</item>
+        <item>Rumania</item>
+        <item>Níger</item>
+        <item>Burkina Faso</item>
+        <item>Malí</item>
+        <item>Chile</item>
+        <item>Kazajistán</item>
+        <item>Países Bajos</item>
+        <item>Malaui</item>
+        <item>Guatemala</item>
+        <item>Ecuador</item>
+        <item>Zambia</item>
+        <item>Camboya</item>
+        <item>Senegal</item>
+        <item>Chad</item>
+        <item>Zimbabue</item>
+        <item>Sudán del Sur</item>
+        <item>Somalia</item>
+        <item>Ruanda</item>
+        <item>Grecia</item>
+        <item>Bélgica</item>
+        <item>Túnez</item>
+        <item>Cuba</item>
+        <item>Benín</item>
+        <item>Haití</item>
+        <item>Guinea</item>
+        <item>Bolivia</item>
+        <item>República Checa</item>
+        <item>Portugal</item>
+        <item>Burundi</item>
+        <item>República Dominicana</item>
+        <item>Suecia</item>
+        <item>Jordania</item>
+        <item>Hungría</item>
+        <item>Azerbaiyán</item>
+        <item>Bielorrusia</item>
+        <item>Emiratos Árabes</item>
+        <item>Austria</item>
+        <item>Honduras</item>
+        <item>Tayikistán</item>
+        <item>Israel</item>
+        <item>Suiza</item>
+        <item>Papúa Nueva Guinea</item>
+    </string-array>
+    <string-array name="ruleString">
+        <item>Primo</item>
+        <item>No primo</item>
+        <item>Par</item>
+        <item>Impar</item>
+        <item>Color</item>
+        <item>Número</item>
+    </string-array>
+    <string name="sign_in">Ingresar</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="signed_out">Sesión cerrada</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Anterior</string>
+
+    <string name="share">Compartir</string>
+    <string name="main_menu">Ir al menu</string>
+    <string name="play_again">Jugar otra</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="random_game_explanation">Elige arrancar un juego al azar</string>
+    <string name="populations_game_explanation">Sabes de países y sus poblaciones? Demuéstralo!</string>
+    <string name="rules_game_explanation">Elige la opción que corresponde con la regla central</string>
+    <string name="math_game_explanation">Elige la respuesta correcta a la ecuación matemática</string>
+    <string name="numbers_game_explanation">Elige el número o color que corresponda con el valor central</string>
+    <string name="reaction_game_explanation">Cuando la pantalla cambie de color haz click lo más rápido posible</string>
+    <string name="memory_game_button">Memoria</string>
+    <string name="memory_short_name">Me</string>
+    <string name="memory_game_explanation">Recuerda el número y encuéntralo</string>
+    <string name="pre_memory_game">Verás un número y luego dos opciones, solo una de las cuales es idéntica</string>
+    <string name="color_reaction_short_name">Co</string>
+    <string name="color_reaction_game_button">Color-Reflejos</string>
+    <string name="pre_color_reaction_game">Haz tap cuando el color sea igual que el texto</string>
+    <string name="color_reaction_game_explanation">Haz tap cuando el color sea igual que el texto</string>
+    <string name="leaderSubText">Casi Heisenberg</string>
+    <string name="secondSubText">Cebollita</string>
+    <string name="thirdSubText">Si! Podio!</string>
+    <string name="youSubText">A por todos!</string>
+</resources>
